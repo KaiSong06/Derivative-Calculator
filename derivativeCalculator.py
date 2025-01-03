@@ -15,9 +15,6 @@ def convertEquation(equation):
 def derive(equation, variable):
     return(sympy.diff(equation, variable))
 
-#Setup pretty print
-
-
 
 
 def main():
